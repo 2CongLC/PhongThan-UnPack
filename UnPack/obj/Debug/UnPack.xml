@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UnPack
+</name>
+</assembly>
+<members>
+<member name="T:UnPack.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UnPack.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UnPack.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:UnPack.Extensions.IsRar(System.Byte[])">
+ <summary>
+ Kiểm tra định dạng WinRar
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+</member>
+<member name="M:UnPack.Extensions.IsZip(System.Byte[])">
+ <summary>
+ Kiểm tra định dạng Zip
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+</member>
+<member name="M:UnPack.Extensions.IsBZip2(System.Byte[])">
+ <summary>
+ Kiểm tra định dạng Bzip2
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+</member>
+<member name="M:UnPack.Extensions.IsLZip(System.Byte[])">
+ <summary>
+ Kiểm tra định dạng Lz
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+</member>
+<member name="M:UnPack.Extensions.IsXz(System.Byte[])">
+ <summary>
+ Kiểm tra định dạng Xz
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
